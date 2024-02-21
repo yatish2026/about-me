@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <div class="about-me">
+        <h2>About Me:</h2>
+        <p>
+            I am a dedicated and ambitious individual with a strong passion for technology and innovation. I hold a Bachelor's degree in Computer Science from SVCET, where I gained a solid foundation in programming, algorithms, and software development. My academic journey has equipped me with the knowledge and skills necessary to thrive in the dynamic field of data science and entrepreneurship.
+
+            As an aspiring entrepreneur.
+        </p>
+        <button class="toggle-button">Toggle</button>
+
+        <h2>Education Details:</h2>
+        <table>
+            <tr>
+                <th>S.No</th>
+                <th>Course</th>
+                <th>Year</th>
+                <th>Percentage</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Bachelor's in Computer Science</td>
+                <td>2022-2026</td>
+                <td>on going</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>intermedite in MPC</td>
+                <td>2020-2022</td>
+                <td>72</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>SSC</td>
+                <td>2020</td>
+                <td>83</td>
+            </tr>
+
+            <!-- Add more rows for additional education details if needed -->
+        </table>
+    </div>
+
+    <div class="summaryy">
+        <h1>summary</h1>
+         <p>
+            I am a highly motivated individual with a passion for learning and exploring new opportunities. As a fast learner, I thrive in dynamic environments where I can continuously challenge myself and acquire new skills.
+         </p>
+        <p>
+            My interests lie at the intersection of data science, entrepreneurship, and technology. I am fascinated by the power of data to drive insights and innovation, and I am committed to leveraging data-driven approaches to solve complex problems and create meaningful impact.
+        </p>
+        <p>
+            As an aspiring entrepreneur, I am driven by a vision to build innovative solutions that address real-world challenges and improve people's lives. I am excited about the possibilities that technology offers to transform industries and drive positive change in society.
+        </p>
+        <p>
+            I am a firm believer in the potential of technology to empower individuals and communities. I am committed to fostering a tech-positive mindset and advocating for the responsible and ethical use of technology to create a better world for future generations.
+        </p>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $(".toggle-button").click(function(){
+                $("p").toggle();
+            });
+        });
+    </script>
+</body>
+</html>
